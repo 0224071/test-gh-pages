@@ -19,7 +19,7 @@ echo > .nojekyll
 git init
 
 # 根據本人觀察，這行大多人都會選擇註解掉，影響不大
-git checkout -B master
+git checkout -B main
 
 git add -A
 git commit -m 'deploy'
